@@ -116,7 +116,7 @@ a:hover {
     background-color: #0a51cc;
     color: #fff;
     border-radius: 10px;
-    margin: 20px 10px;
+    margin: 40px 10px;
     box-shadow: 0 3px 5px; rgba(0, 0, 0, 0.6);
     padding: 15px 20px;
 }
@@ -124,6 +124,23 @@ a:hover {
 .box i {
     margin-right: 10px;
 }
+
+.footer {
+    background-color: #dedede;
+    color: green;
+    font-family: "Comic Sans MS", sans-serif, Tahoma;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+
+.footer a {
+    color: #008c10;
+    text-decoration: none;
+}
+
 
 @media (max-width: 768px) {
     .header .container {
@@ -136,5 +153,11 @@ a:hover {
         display: block;
         text-align: center;
     }
+
+/*.footer {
+    background-color: chartreuse;
+    display: flex;
+    justify-content: center;
 }
+
 
